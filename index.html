@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Maria Calistroni - ML Engineer &amp; AI Researcher</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS scroll animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">FMC</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-nav">Hire Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ─── HERO ───────────────────────────────────────────── -->
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow" data-aos="fade-up">Hello, I'm</p>
+            <h1 data-aos="fade-up" data-aos-delay="100">
+                Francesco Maria<br>
+                <span class="gradient-text">Calistroni</span>
+            </h1>
+            <p class="hero-tagline" data-aos="fade-up" data-aos-delay="200">
+                ML Engineer & AI Research Scientist
+            </p>
+            <p class="hero-sub" data-aos="fade-up" data-aos-delay="300">
+                Computer vision, time-series forecasting, and agentic AI.<br>
+                From research to production.
+            </p>
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+            <div class="hero-socials" data-aos="fade-up" data-aos-delay="500">
+                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/francesco-maria-calistroni-518438156/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:fra.calistroni@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        </div>
+    </section>
+
+    <!-- ─── ABOUT ──────────────────────────────────────────── -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-photo" data-aos="fade-right">
+                    <img src="photo.jpg" alt="Francesco Maria Calistroni">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>
+                        I'm an ML Engineer and AI Research Scientist working at the intersection of
+                        <strong>computer vision, time-series forecasting, and agentic AI</strong>, building
+                        systems that don't just run in notebooks, but in production.
+                    </p>
+                    <p>
+                        My work spans deep learning research and applied engineering: from multimodal
+                        architectures and Bayesian cognitive models at the University of Padova, to
+                        demand forecasting platforms and LLM-powered agents that reason, retrieve,
+                        and act autonomously.
+                    </p>
+                    <p>
+                        I believe the most impactful AI sits at the boundary between rigorous research
+                        and pragmatic engineering.
+                    </p>
+                    <a href="#" class="btn-outline">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── PROJECTS ──────────────────────────────────────── -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
+            <!-- Research -->
+            <div class="projects-category" data-aos="fade-up">
+                <h3 class="category-title">
+                    <i class="fas fa-flask"></i> Research & Academic
+                </h3>
+                <div class="projects-grid">
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-header">
+                            <i class="fas fa-brain project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>GROUNDEEP: Multimodal Concept Grounding</h4>
+                        <p>Designed multimodal architectures that ground numerical concepts from visual and symbolic inputs. Built robust benchmarks vs visual-only baselines; applied XAI to probe how neural networks represent numerical quantities.</p>
+                        <div class="project-tags">
+                            <span>Multimodal AI</span><span>XAI</span><span>HPC</span><span>PyTorch</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-university"></i> FAIR – Future AI Research, PNRR · Università di Padova
+                        </p>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-header">
+                            <i class="fas fa-eye project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Bayesian Observer Models: Cognitive Neuroscience</h4>
+                        <p>Built deep learning Bayesian observer models for uncertainty in time and visual perception. Implemented and fitted Drift-Diffusion Model variants to behavioral datasets. Led the full analysis pipeline; co-authored a preprint.</p>
+                        <div class="project-tags">
+                            <span>Bayesian Modeling</span><span>DDM</span><span>Cognitive AI</span><span>Python</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-university"></i> Research Fellow · Università di Padova
+                        </p>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-header">
+                            <i class="fas fa-microscope project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98/numerical_analysis_pipeline" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Numerical Representation Analysis Pipeline</h4>
+                        <p>Modular toolkit for analyzing how deep networks represent numerical concepts. Seven analysis stages: power-law scaling, linear probes, geometry (RSA), reconstruction quality, dimensionality reduction (PCA/UMAP/t-SNE), CKA layer comparisons, and behavioral numerosity tasks. Unified adapter system for swapping model architectures without rewriting analysis code.</p>
+                        <div class="project-tags">
+                            <span>XAI</span><span>Representational Similarity</span><span>CKA</span><span>UMAP</span><span>PyTorch</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-university"></i> FAIR – Future AI Research, PNRR · Università di Padova
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Industry -->
+            <div class="projects-category" data-aos="fade-up">
+                <h3 class="category-title">
+                    <i class="fas fa-industry"></i> Industry & Applied AI
+                </h3>
+                <div class="projects-grid">
+
+                    <div class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+                        <div class="featured-badge">CTO</div>
+                        <div class="project-header">
+                            <i class="fas fa-chart-line project-icon"></i>
+                            <div class="project-links">
+                                <a href="#contact" aria-label="Contact"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h4>Praenova: AI Demand Forecasting Platform</h4>
+                        <p>Multimodal forecasting platform fusing time-series models with unstructured external signals (social trends, visual product attributes, regulatory signals) for SKU-level predictions in retail, fashion & FMCG. ~90% accuracy on established products vs 50–60% industry average.</p>
+                        <div class="project-tags">
+                            <span>Forecasting</span><span>Multimodal Fusion</span><span>MLOps</span><span>Explainability</span><span>Cold-start</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-building"></i> CTO & Co-founder · Praenova
+                        </p>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-header">
+                            <i class="fas fa-calendar-alt project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Farmaplan: Pharmacy Shift Scheduler</h4>
+                        <p>Full-stack web app for pharmacy staff scheduling. FastAPI backend, SQLAlchemy ORM, vanilla JS SPA frontend. Auto-generates weekly shifts from templates, handles leave and sick days, enforces staffing coverage rules, and ships as a standalone .exe.</p>
+                        <div class="project-tags">
+                            <span>FastAPI</span><span>SQLAlchemy</span><span>Vanilla JS</span><span>PyInstaller</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-laptop-code"></i> Personal Project
+                        </p>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-header">
+                            <i class="fas fa-hand-paper project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Radar Gesture Recognition</h4>
+                        <p>R&D for radar-based hand gesture recognition achieving 92% accuracy across 12 gestures in real-world conditions, cutting calibration time by 60% via meta-learning (MAML). Multimodal radar + camera interior sensing pipeline optimized for embedded hardware.</p>
+                        <div class="project-tags">
+                            <span>Radar ML</span><span>Meta-learning</span><span>MAML</span><span>Embedded</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-building"></i> AI Engineer · ParadoxCat GmbH, Munich
+                        </p>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-header">
+                            <i class="fas fa-map-marked-alt project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/francesco-cal98" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h4>Travel RAG Chatbot</h4>
+                        <p>End-to-end conversational AI travel assistant using Retrieval-Augmented Generation on PDF travel guides. Full agentic pipeline: LangChain + ChromaDB vector store + Groq/Llama 3.3 LLM + LangGraph memory + Google Places API + FastAPI + Streamlit.</p>
+                        <div class="project-tags">
+                            <span>LangChain</span><span>RAG</span><span>LangGraph</span><span>Agentic AI</span><span>FastAPI</span>
+                        </div>
+                        <p class="project-context">
+                            <i class="fas fa-laptop-code"></i> Personal Project
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── SKILLS ────────────────────────────────────────── -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Tech Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="50">
+                    <h4><i class="fas fa-code"></i> Languages</h4>
+                    <div class="skill-badges">
+                        <span>Python</span><span>C++</span><span>SQL</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="100">
+                    <h4><i class="fas fa-robot"></i> ML / DL</h4>
+                    <div class="skill-badges">
+                        <span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span>
+                        <span>HuggingFace</span><span>LangChain</span><span>LangGraph</span>
+                    </div>
+                </div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="150">
+                    <h4><i class="fas fa-cogs"></i> MLOps</h4>
+                    <div class="skill-badges">
+                        <span>Docker</span><span>GitHub Actions</span><span>MLflow</span><span>HPC / SLURM</span>
+                    </div>
+                </div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="200">
+                    <h4><i class="fas fa-database"></i> Data & Backend</h4>
+                    <div class="skill-badges">
+                        <span>FastAPI</span><span>SQLAlchemy</span><span>ChromaDB</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="250">
+                    <h4><i class="fas fa-cloud"></i> Cloud & Deployment</h4>
+                    <div class="skill-badges">
+                        <span>AWS</span><span>GCP</span><span>Azure</span><span>Streamlit</span><span>Gradio</span>
+                    </div>
+                </div>
+                <div class="skill-group" data-aos="fade-up" data-aos-delay="300">
+                    <h4><i class="fas fa-microscope"></i> Research Methods</h4>
+                    <div class="skill-badges">
+                        <span>Bayesian Inference</span><span>XAI</span><span>Multimodal Fusion</span><span>Ablation Studies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── EXPERIENCE ────────────────────────────────────── -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>CTO & Co-founder</h4>
+                            <span class="timeline-date">2025 - Present</span>
+                        </div>
+                        <p class="timeline-company">Praenova</p>
+                        <p>Leading AI/ML architecture for an enterprise demand forecasting platform. Multimodal signal fusion, cold-start modeling, explainability layer, and end-to-end MLOps pipelines.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>AI Researcher: GROUNDEEP Project</h4>
+                            <span class="timeline-date">2025</span>
+                        </div>
+                        <p class="timeline-company">Università degli Studi di Padova · FAIR PNRR Spoke 10</p>
+                        <p>Multimodal grounding architectures, HPC reproducible training pipelines, and XAI visualizations for numerical concept understanding in neural networks.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Research Fellow: Computational Neuroscientist</h4>
+                            <span class="timeline-date">Mar 2024 - Dec 2024</span>
+                        </div>
+                        <p class="timeline-company">Università degli Studi di Padova</p>
+                        <p>Bayesian observer models for perceptual uncertainty, DDM fitting on behavioral data, full cognitive data analysis pipeline. Co-authored preprint.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Artificial Intelligence Engineer</h4>
+                            <span class="timeline-date">Oct 2022 - Jan 2024</span>
+                        </div>
+                        <p class="timeline-company">ParadoxCat GmbH · Munich</p>
+                        <p>Radar-based gesture recognition R&D (92% accuracy, 12 gestures). Meta-learning (MAML) and self-supervised masked AE for few-shot generalization. Multimodal radar+camera sensing pipeline for embedded hardware.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h4>Deep Learning Engineer Intern</h4>
+                            <span class="timeline-date">Feb 2022 - Jul 2022</span>
+                        </div>
+                        <p class="timeline-company">SmartEye AB · Gothenburg</p>
+                        <p>Image-to-image translation system (RGB→NIR) using state-of-the-art GANs. Dockerized training/eval pipelines, C++/PyTorch utilities and internal tooling.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ───────────────────────────────────────── -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <p class="contact-sub">
+                    Open to consulting engagements, research collaborations, and full-time roles.<br>
+                    Let's build something impactful.
+                </p>
+                <a href="mailto:fra.calistroni@gmail.com" class="btn-primary btn-large">
+                    <i class="fas fa-envelope"></i> fra.calistroni@gmail.com
+                </a>
+                <div class="contact-socials">
+                    <a href="https://github.com/francesco-cal98" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/francesco-maria-calistroni-518438156/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ────────────────────────────────────────── -->
+    <footer>
+        <p>© 2025 Francesco Maria Calistroni · Built with HTML, CSS & JS</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
