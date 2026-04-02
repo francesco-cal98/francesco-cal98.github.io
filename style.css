@@ -112,7 +112,7 @@ section {
 }
 .btn-outline:hover { background: var(--accent-1); color: #fff; }
 
-.btn-large { padding: 16px 36px; font-size: 1.05rem; }
+.btn-large { padding: 16px 36px; font-size: 1.05rem; overflow-wrap: break-word; word-break: break-word; max-width: 100%; text-align: center; }
 
 /* ─── NAVBAR ─────────────────────────────────────────────── */
 #navbar {
@@ -760,6 +760,11 @@ footer {
     .timeline-dot { width: 26px; height: 26px; }
 
     .contact-socials { flex-direction: column; align-items: center; gap: 16px; }
+
+    .skills-grid { grid-template-columns: 1fr; }
+    .education-grid { grid-template-columns: 1fr; }
+
+    .timeline-item { gap: 16px; }
 }
 
 @media (max-width: 480px) {
